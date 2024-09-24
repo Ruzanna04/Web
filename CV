@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruzanna Sargsyan - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        ul li:hover {
+            background-color: #f0f0f0;
+        }
+        strong {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #4caf50;
+            padding-bottom: 5px;
+            color: #4caf50;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .contact-info div {
+            flex: 1;
+            text-align: center;
+        }
+		 .profile-pic {
+            display: block;
+            margin: 20px auto; 
+            width: 150px; 
+            height: auto;
+            border-radius: 50%;
+            border: 2px solid #4caf50; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ruzanna Sargsyan</h1>
+        <img src="file:///C:/Users/Home/Desktop/5447408340251566926.jpg" alt="Ruzanna Sargsyan" class="profile-pic" >
+        <div class="contact-info">
+            <div><strong>Date of Birth:</strong><br>October 20, 2004</div>
+            <div><strong>Location:</strong><br>Armenia</div>
+            <div><strong>Email:</strong><br><a href="mailto:ruzs3145@gmail.com">ruzs3145@gmail.com</a></div>
+            <div><strong>Phone:</strong><br>+374 93 61 80 94</div>
+			
+        </div>
+
+        <h2>Education</h2>
+        <p>National Polytechnic University of Armenia (2022-2026)</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> C, C++</li>
+            <li><strong>Web Development:</strong> HTML</li>
+            <li><strong>Graphic Design:</strong> Canva, CapCut, Inshot, Snapseed</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul>
+            <li><strong>Armenian:</strong> Native</li>
+            <li><strong>English:</strong> Pre-Intermediate</li>
+            <li><strong>Russian:</strong> Beginner</li>
+        </ul>
+    </div>
+</body>
+</html>
+</html>
